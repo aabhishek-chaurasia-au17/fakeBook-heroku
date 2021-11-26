@@ -1,0 +1,24 @@
+{
+  "name": "fakebook-heroku",
+  "version": "1.0.0",
+  "description": "![Memories](./client/src/images/preview.jpg)",
+  "main": "index.js",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd server && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aabhishek-chaurasia-au17/fakeBook-heroku.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aabhishek-chaurasia-au17/fakeBook-heroku/issues"
+  },
+  "homepage": "https://github.com/aabhishek-chaurasia-au17/fakeBook-heroku#readme"
+}
