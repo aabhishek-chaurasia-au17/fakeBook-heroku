@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/aabhishek-chaurasia-au17/fakeBook-heroku/issues"
   },
-  "homepage": "https://github.com/aabhishek-chaurasia-au17/fakeBook-heroku#readme"
+  "homepage": "https://github.com/aabhishek-chaurasia-au17/fakeBook-heroku#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
