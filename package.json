@@ -7,8 +7,8 @@
     "node": "16.x"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd server && npm install && npm start"
+    "heroku-prebuild": "cd front-end && npm install && npm run build && cd .. && cd server && npm install",
+    "start": "cd server && npm start"
   },
   "repository": {
     "type": "git",

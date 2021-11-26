@@ -24,7 +24,14 @@ mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: tr
   .then(() => app.listen(PORT, () => console.log(`Server Running on Port: http://localhost:${PORT}`)))
   .catch((error) => console.log(`${error} did not connect`));
 
-const buildFolderPath = `E:/backend-project-sankalp-yadav-au17/client/build`
+
+import { fileURLToPath} from 'url';
+import { dirname, resolve } from 'path'
+
+const __fileName = fileURLToPath(import.meta.url) 
+const __dirname = dirname(__fileName)
+
+const buildFolderPath = resolve(__dirname, '../client/build')
 app.use(express.static(buildFolderPath))
 
 //React Router 
